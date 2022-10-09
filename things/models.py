@@ -1,6 +1,6 @@
 from django.db import models
 
-class Thing():
+class Thing(models.Model):
     name = models.CharField()
     description = models.CharField()
     quantity = models.IntegerField()
